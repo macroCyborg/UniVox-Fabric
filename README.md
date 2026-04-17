@@ -74,7 +74,7 @@ UniVox Fabric 是**专为 Unity 打造的 AI 语音交互模块化编织框架**
 ```json
 {
   "dependencies": {
-    "com.univox.fabric": "https://github.com/你的用户名/UniVox-Fabric.git#main"
+    "com.univox.fabric": "https://github.com/macroCyborg/UniVox-Fabric.git#main"
   }
 }
 ```
