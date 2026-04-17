@@ -18,7 +18,7 @@
 [特性](#-核心特性) · [安装](#-快速安装) · [使用](#-快速使用) · [模块](#-内置模块) · [授权](#-许可证)
 
 
-
+---
 # 📌 项目定位
 
 UniVox Fabric 是**专为 Unity 打造的 AI 语音交互模块化编织框架**。
@@ -29,8 +29,8 @@ UniVox Fabric 是**专为 Unity 打造的 AI 语音交互模块化编织框架**
 - **Vox**：语音交互、人声 ↔ AI 对话
 - **Fabric**：模块化编织、自由组合链路
 
-\---
 
+---
 # ✨ 核心特性
 
 ## 🔌 可插拔模块化架构
@@ -57,8 +57,8 @@ UniVox Fabric 是**专为 Unity 打造的 AI 语音交互模块化编织框架**
 - 异常捕获与自动降级容错
 - 极简 API，3 行代码启动对话
 
-\---
 
+---
 # 🚀 快速安装
 
 ## 方式 1：导入 .unitypackage（推荐）
@@ -79,14 +79,14 @@ UniVox Fabric 是**专为 Unity 打造的 AI 语音交互模块化编织框架**
 }
 ```
 
-\---
-
+---
 # 🎯 快速使用
 
 ## 1️⃣ 创建核心实例
 
 在场景新建空物体 → 添加 `UniVoxFabricCore` 组件
 
+---
 ## 2️⃣ 一键添加模块
 
 - AudioCaptureModule（录音）
@@ -95,6 +95,7 @@ UniVox Fabric 是**专为 Unity 打造的 AI 语音交互模块化编织框架**
 - TTSModule（文字转语音）
 - AudioPlaybackModule（播放）
 
+---
 ## 3️⃣ 最简调用代码
 
 ```csharp
@@ -124,8 +125,8 @@ public class DemoVoiceChat : MonoBehaviour
 }
 ```
 
-\---
 
+---
 # 🧩 内置模块
 
 | 模块                 | 功能                 | 可插拔 | 可扩展 |
@@ -137,6 +138,7 @@ public class DemoVoiceChat : MonoBehaviour
 | AudioPlaybackModule  | 语音播放、音量控制   | ✅      | ✅      |
 | ContextManagerModule | 多轮对话记忆         | ✅      | ✅      |
 
+---
 # 🔧 扩展开发
 
 ## 自定义模块只需 2 步
@@ -146,13 +148,15 @@ public class DemoVoiceChat : MonoBehaviour
 
 框架自动识别、编排、调度，无侵入式接入。
 
+---
 # ⚠️ 注意事项
 
 - 使用第三方 AI 语音服务需自行申请 API Key
 - 移动平台需开启麦克风权限
 - 异步回调避免跨线程操作 Unity 对象
 - 建议在目标平台真机测试兼容性
-
+- 
+---
 # 🤝 贡献指南
 
 1. Fork 本仓库
@@ -162,6 +166,7 @@ public class DemoVoiceChat : MonoBehaviour
 
 欢迎提交新模块、优化、bug 修复～
 
+---
 # 💬 反馈与支持
 
 - 提交 Issue：bug、需求、建议
@@ -170,10 +175,9 @@ public class DemoVoiceChat : MonoBehaviour
 
 **让 Unity AI 语音交互开发，像搭积木一样简单。**
 
+---
 ## Star History
 https://www.star-history.com/?repos=UniVox-Fabric%2FUniVox-Fabric&type=date&legend=top-left
-
-
 
 <a href="https://www.star-history.com/?repos=UniVox-Fabric%2FUniVox-Fabric&type=date&legend=top-left">
  <picture>
